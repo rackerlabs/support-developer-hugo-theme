@@ -1,8 +1,15 @@
-{{ define "main"}}
-    <main id="main">
-      <div>
-       <h1 id="title">Not found</h1>
-          <p>Oops! This page doesn't exist. Try going back to our <a href="{{ "/" | relURL }}">home page</a>.</p>
-      </div>
-    </main>
-{{ end }}
+{{- define "main" -}}
+<section class="hero">
+    <div class="hero--content">
+        <div class="container">
+            <div class="hero--text-block">
+                <h1 class="hero--title">Page not found</h1>
+                <div class="hero--sub">What you're looking for isn't here!</div>
+                <div class="hero-cta">
+                    <a href="/" class="button primary big">Back to home</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{- end -}}
