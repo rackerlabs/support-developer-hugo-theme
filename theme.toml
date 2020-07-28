@@ -1,11 +1,10 @@
-name = "Support-Developer-Hugo-Theme"
-description = "Theme for the Support Developer Blog Sites"
+name = "Support-Develeper-Hugo-Theme"
+description = "A Hugo theme for technical documentation sites"
 homepage = "https://github.com/rackerlabs/support-developer-hugo-theme"
-tags = ["support-developer-hugo-theme"]
+tags = ["documentation", "multilingual", "customizable", "responsive", "docs"]
 features = []
-min_version = "0.0.1"
+min_version = 0.74
 
 [author]
-  name = "Rackelabs"
-  homepage = "https://github.com/rackerlabs"
-
+  name = "Rackerlabs"
+  homepage = "https://github.com/rackerlabs/"
