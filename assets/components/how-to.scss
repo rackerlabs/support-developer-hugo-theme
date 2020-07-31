@@ -166,106 +166,100 @@
         }
 
         .pdr {
-            background-image: url("https://80f9b8fec919ac5ebc1a-384085a95109bffb325fe35cb6202ded.ssl.cf2.rackcdn.com/icon-rackspace-pdr-10b824234527d7a687fde4052f3aeaa04f4a2579446ba0c2a47b22e302031b39.png");
-            background-image: none, url("https://80f9b8fec919ac5ebc1a-384085a95109bffb325fe35cb6202ded.ssl.cf2.rackcdn.com/icon-rackspace-pdr-37766009ade7bb986be11d8d5405463f5b8fac9db8862bd746e32f8ee669c62a.svg");
+            background-image: url("/img/pdr.png");
+            background-image: none, url("/img/pdr.svg");
         }
         .alert-logic {
-            background-image: url("https://80f9b8fec919ac5ebc1a-384085a95109bffb325fe35cb6202ded.ssl.cf2.rackcdn.com/icon-alert-logic-2413149dbea223d39cf85616d10d614faefc769d40b1212bf6f42cd21544b685.png");
-            background-image: none, url("https://80f9b8fec919ac5ebc1a-384085a95109bffb325fe35cb6202ded.ssl.cf2.rackcdn.com/icon-alert-logic-efbb29ada71681f6c0058a237823115603de66147db51e83346fbaff01037d19.svg");
+            background-image: url("/img/alert-logic.png");
+            background-image: none, url("/img/alert-logic.svg");
         }
-        .cloudflare {
-            background-image: url("/assets/support.rackspace.com/dist/img/icon-rms-cloudflare.png");
-            background-image: none, url("/assets/support.rackspace.com/dist/img/icon-rms-cloudflare.svg");
-          }
           .managed-operations {
-            background-image: url("https://80f9b8fec919ac5ebc1a-384085a95109bffb325fe35cb6202ded.ssl.cf2.rackcdn.com/icon-managed-operations-a96d2bf4ce2cfe736f690a7c864ce1caa792e29ddcd6d320427b4420bb2fe0d3.png");
-            background-image: none, url("https://80f9b8fec919ac5ebc1a-384085a95109bffb325fe35cb6202ded.ssl.cf2.rackcdn.com/icon-managed-operations-f950deff4023710ed48b8d0350d8fa5ad1ae93f0d1fb695104e7652426c4d02a.svg");
+            background-image: url("/img/managed-operations.png");
+            background-image: none, url("/img/managed-operations.svg");
           }
           .private {
-            background-image: url("https://80f9b8fec919ac5ebc1a-384085a95109bffb325fe35cb6202ded.ssl.cf2.rackcdn.com/icon-private-cloud-c9a7cb357d9ec404ca40c17d3bbf0b7f2826aee7c1087a4b9a6940cfec3387d9.png");
-            background-image: none, url("https://80f9b8fec919ac5ebc1a-384085a95109bffb325fe35cb6202ded.ssl.cf2.rackcdn.com/icon-private-cloud-c73433084492c31e1ae926aa3fb6d26b53c1f967f4fc9427ace55485c4692ffe.svg");
+            background-image: url("/img/private.png");
+            background-image: none, url("/img/private.svg");
           }
           .intelligence {
-            background-image: url("https://80f9b8fec919ac5ebc1a-384085a95109bffb325fe35cb6202ded.ssl.cf2.rackcdn.com/icon-intelligence-cecf5eeabb6b42634c09ab7be18273172c4e8239315326d725db35602e72d493.png");
-            background-image: none, url("https://80f9b8fec919ac5ebc1a-384085a95109bffb325fe35cb6202ded.ssl.cf2.rackcdn.com/icon-intelligence-8c79f8e8c954f6178d6dda728184ecc6107078ea75d9e2a451a9cafb8c43de08.svg");
+            background-image: url("/img/intelligence.png");
+            background-image: none, url("/img/intelligence.svg");
           }
           .auto-scale {
-            background-image: url("https://80f9b8fec919ac5ebc1a-384085a95109bffb325fe35cb6202ded.ssl.cf2.rackcdn.com/icon-auto-scale-c1d7c9e8d22ac76e30af53fa7c57d528f7805d6d0768bcc4a46624443ca3ace8.png");
-            background-image: none, url("https://80f9b8fec919ac5ebc1a-384085a95109bffb325fe35cb6202ded.ssl.cf2.rackcdn.com/icon-auto-scale-5388b7cc40b050a9cfe69ea233f59e720f708b6310eb9650866a8c8e22b84fe5.svg");
+            background-image: url("/img/auto-scale.png");
+            background-image: none, url("/img/auto-scale.svg");
           }
           .orchestration {
-            background-image: url("https://80f9b8fec919ac5ebc1a-384085a95109bffb325fe35cb6202ded.ssl.cf2.rackcdn.com/icon-orchestration-2ab83824dbd54a6c0df40a4bc99a28ea2ff1188c6c26393ee9a2c0ca45934ed5.png");
-            background-image: none, url("https://80f9b8fec919ac5ebc1a-384085a95109bffb325fe35cb6202ded.ssl.cf2.rackcdn.com/icon-orchestration-fd6f1b2a0f55ff731b6e69b56ae8bfcb58f7ba1a99e8a84f42de9acceab10928.svg");
+            background-image: url("/img/orchestration.png");
+            background-image: none, url("/img/orchestration.svg");
           }
           .monitoring {
-            background-image: url("https://80f9b8fec919ac5ebc1a-384085a95109bffb325fe35cb6202ded.ssl.cf2.rackcdn.com/icon-monitoring-64d10ce105c519fc5f141db5ae1f33c172cf86c59053df8321b9be79cd6a56a8.png");
-            background-image: none, url("https://80f9b8fec919ac5ebc1a-384085a95109bffb325fe35cb6202ded.ssl.cf2.rackcdn.com/icon-monitoring-44270c902d5f58b884a92aa72f298b57b7d3383f6b011a853578ef732766d45e.svg");
+            background-image: url("/img/monitoring.png");
+            background-image: none, url("/img/monitoring.svg");
           }
           .backup {
-            background-image: url("https://80f9b8fec919ac5ebc1a-384085a95109bffb325fe35cb6202ded.ssl.cf2.rackcdn.com/icon-backup-94300b12388ed21727c7a6a9e8c6339a38301d1035a413d4c8efe8fdf2746372.png");
-            background-image: none, url("https://80f9b8fec919ac5ebc1a-384085a95109bffb325fe35cb6202ded.ssl.cf2.rackcdn.com/icon-backup-85a8d1f563088e28283cb8cdeba518987c403bce56358fcc0d7895c08644518f.svg");
+            background-image: url("/img/backup.png");
+            background-image: none, url("/img/backup.svg");
           }
           .queues {
-            background-image: url("https://80f9b8fec919ac5ebc1a-384085a95109bffb325fe35cb6202ded.ssl.cf2.rackcdn.com/icon-queues-f05341e5e034861e99989dc83954cb75083ec93dc5f7387764c5b6b940c6aba5.png");
-            background-image: none, url("https://80f9b8fec919ac5ebc1a-384085a95109bffb325fe35cb6202ded.ssl.cf2.rackcdn.com/icon-queues-bc60988c57435d64a95aaf806c35075f2d7947c893a1355eaa89bc4f36131cd6.svg");
+            background-image: url("/img/queues.png");
+            background-image: none, url("/img/queues.svg");
           }
          .servers {
-            background-image: url("https://80f9b8fec919ac5ebc1a-384085a95109bffb325fe35cb6202ded.ssl.cf2.rackcdn.com/icon-servers-7943baf92688a0f234d025d52ade6d3196ab547019124c3bcccdce8bb3752581.png");
-            background-image: none, url("https://80f9b8fec919ac5ebc1a-384085a95109bffb325fe35cb6202ded.ssl.cf2.rackcdn.com/icon-servers-e9acf26c93110795516c2688f814f40e4324a90faeb28168c62130c345656a8d.svg");
+            background-image: url("/img/servers.png");
+            background-image: none, url("/img/servers.svg");
           }
          .images {
-            background-image: url("https://80f9b8fec919ac5ebc1a-384085a95109bffb325fe35cb6202ded.ssl.cf2.rackcdn.com/icon-images-64f3c912e58004ffc473f6f5d5eba953fa1be40a5201aec50511b0d9ef613f9b.png");
-            background-image: none, url("https://80f9b8fec919ac5ebc1a-384085a95109bffb325fe35cb6202ded.ssl.cf2.rackcdn.com/icon-images-d98cac8e0a43c80dda89de88408e921a524b23549244e26e8f82b4cead972062.svg");
+            background-image: url("/img/images.png");
+            background-image: none, url("/img/images.svg");
           }
          .vmware {
-            background-image: url("https://80f9b8fec919ac5ebc1a-384085a95109bffb325fe35cb6202ded.ssl.cf2.rackcdn.com/icon-vmware-e16f0b9686f9d1580cae97de11a6c49a9e518055b287e20829dbd3f7156b6f7b.png");
-            background-image: none, url("https://80f9b8fec919ac5ebc1a-384085a95109bffb325fe35cb6202ded.ssl.cf2.rackcdn.com/icon-vmware-7c9b4629768bebcb1eed280281bc615be6dfd0872dd26ab8d133de62902752a4.svg");
+            background-image: url("/img/vmware.png");
+            background-image: none, url("/img/vmware.svg");
           }
          .networks {
-            background-image: url("https://80f9b8fec919ac5ebc1a-384085a95109bffb325fe35cb6202ded.ssl.cf2.rackcdn.com/icon-networks-0172c677c71ae246add44a4a69137a8538d44dba3d0baad40706eccd349b98f0.png");
-            background-image: none, url("https://80f9b8fec919ac5ebc1a-384085a95109bffb325fe35cb6202ded.ssl.cf2.rackcdn.com/icon-networks-3ee826e4320ad7415f8774ddb5218eded877878af715956763be7c091dd9eba3.svg");
+            background-image: url("/img/networks.png");
+            background-image: none, url("/img/networks.svg");
           }
          .dns {
-            background-image: url("https://80f9b8fec919ac5ebc1a-384085a95109bffb325fe35cb6202ded.ssl.cf2.rackcdn.com/icon-dns-5e3e881081850ca04549125d8abeafad1876467fe1e6c68690d2043d8b0894a9.png");
-            background-image: none, url("https://80f9b8fec919ac5ebc1a-384085a95109bffb325fe35cb6202ded.ssl.cf2.rackcdn.com/icon-dns-b6df1aa75d75bbd5c192ba812fcf511a94262712fb549be7135ba65dab32ba7d.svg");
+            background-image: url("/img/dns.png");
+            background-image: none, url("/img/dns.svg");
           }
          .load-balancers {
-            background-image: url("https://80f9b8fec919ac5ebc1a-384085a95109bffb325fe35cb6202ded.ssl.cf2.rackcdn.com/icon-load-balancers-c96c050b86bd2a17915fa80b42028f271ac9671e3c78a8bc306e4e31197449a8.png");
-            background-image: none, url("https://80f9b8fec919ac5ebc1a-384085a95109bffb325fe35cb6202ded.ssl.cf2.rackcdn.com/icon-load-balancers-977c5edc4fe224264821d70df6d36aad1bc6a8fc5e43cee3985988254094dab3.svg");
+            background-image: url("/img/load-balancers.png");
+            background-image: none, url("/img/load-balancers.svg");
           }
          .rackconnect {
-            background-image: url("https://80f9b8fec919ac5ebc1a-384085a95109bffb325fe35cb6202ded.ssl.cf2.rackcdn.com/icon-rackconnect-166eb3a3fd797dca941a8406f6d578d84e340ab80c49a23a76a744face5e50ef.png");
-            background-image: none, url("https://80f9b8fec919ac5ebc1a-384085a95109bffb325fe35cb6202ded.ssl.cf2.rackcdn.com/icon-rackconnect-12193f53c357cd262819f604d90803912f4306acc16c7c5828da02c4f1a4d8c5.svg");
+            background-image: url("/img/rackconnect.png");
+            background-image: none, url("/img/rackconnect.svg");
           }
          .files {
-            background-image: url("https://80f9b8fec919ac5ebc1a-384085a95109bffb325fe35cb6202ded.ssl.cf2.rackcdn.com/icon-files-f76f3ca4a099db2c73d203e0bbede2e6704d1740a4e8594d0fd2fedc57672950.png");
-            background-image: none, url("https://80f9b8fec919ac5ebc1a-384085a95109bffb325fe35cb6202ded.ssl.cf2.rackcdn.com/icon-files-44ee0f88feeaeee6bb0508e5f1a9aa2545d0985a6acc9a4911b0183b9f808174.svg");
+            background-image: url("/img/files.png");
+            background-image: none, url("/img/files.svg");
           }
          .block-storage {
-            background-image: url("https://80f9b8fec919ac5ebc1a-384085a95109bffb325fe35cb6202ded.ssl.cf2.rackcdn.com/icon-block-storage-dfbf5c2670412cd69c6b516654f1b9f3d138d205dafd6b1a6b4edddc1461c240.png");
-            background-image: none, url("https://80f9b8fec919ac5ebc1a-384085a95109bffb325fe35cb6202ded.ssl.cf2.rackcdn.com/icon-block-storage-0e2abc9761722d6442dc3b701db9d061cf40dc73ca892ae6e45a8212a5a956f5.svg");
+            background-image: url("/img/block-storage.png");
+            background-image: none, url("/img/block-storage.svg");
           }
          .cdn {
-            background-image: url("https://80f9b8fec919ac5ebc1a-384085a95109bffb325fe35cb6202ded.ssl.cf2.rackcdn.com/icon-cdn-1a2b0bed780857fafeb3ba8d631aac9a484df42285102385f727ef9e9b582968.png");
-            background-image: none, url("https://80f9b8fec919ac5ebc1a-384085a95109bffb325fe35cb6202ded.ssl.cf2.rackcdn.com/icon-cdn-095b01ea3966a980ffbcc7bc54cb949483ab0315e7ac914c8dd1d715c7deeb3e.svg");
+            background-image: url("/img/cdn.png");
+            background-image: none, url("/img/cdn.svg");
           }
          .databases {
-            background-image: url("https://80f9b8fec919ac5ebc1a-384085a95109bffb325fe35cb6202ded.ssl.cf2.rackcdn.com/icon-databases-c65f02f71053e36c59efa6d9ef98ffa864fdb32c81bde6d5a0988a26fd6a4947.png");
-            background-image: none, url("https://80f9b8fec919ac5ebc1a-384085a95109bffb325fe35cb6202ded.ssl.cf2.rackcdn.com/icon-databases-e4a80a047731d41de49dca67b1d8c80d0855fc03d5178e1b937e8ea527164993.svg");
+            background-image: url("/img/databases.png");
+            background-image: none, url("/img/databases.svg");
+          }
+          .metrics {
+            background-image: url("/img/metrics.png");
+            background-image: none, url("/img/metrics.svg");
           }
         
     }
 
-    .product-type-security {
-        .pdr {
-            background-image: url("https://80f9b8fec919ac5ebc1a-384085a95109bffb325fe35cb6202ded.ssl.cf2.rackcdn.com/icon-rackspace-pdr-10b824234527d7a687fde4052f3aeaa04f4a2579446ba0c2a47b22e302031b39.png");
-            background-image: none, url("https://80f9b8fec919ac5ebc1a-384085a95109bffb325fe35cb6202ded.ssl.cf2.rackcdn.com/icon-rackspace-pdr-37766009ade7bb986be11d8d5405463f5b8fac9db8862bd746e32f8ee669c62a.svg");
-        }
-    }
     .product-type-email {
         .email-wizard {
-            background-image: url("https://80f9b8fec919ac5ebc1a-384085a95109bffb325fe35cb6202ded.ssl.cf2.rackcdn.com/icon-wizard-1865db10b473f25f49a023068f241488f6afc5dfe270eb0632725ac4d24a4490.png");
-            background-image: none, url("https://80f9b8fec919ac5ebc1a-384085a95109bffb325fe35cb6202ded.ssl.cf2.rackcdn.com/icon-wizard-21a4346d6ba699cba91b556b9978396797985f6225f6fcfa017f90c15499c32b.svg");
+            background-image: url("/img/email-wizard.png");
+            background-image: none, url("/img/email-wizard.svg");
             background-repeat: no-repeat;
             position: relative;
             margin-bottom: 20px;
@@ -274,28 +268,24 @@
             }
           }
           .office-365 {
-            background-image: url("https://80f9b8fec919ac5ebc1a-384085a95109bffb325fe35cb6202ded.ssl.cf2.rackcdn.com/icon-office-365-f26dd94f6f3a95f1f26db9e5929e8f11300aa5fc6649d3a172c820d21bcdf2b2.png");
-            background-image: none, url("https://80f9b8fec919ac5ebc1a-384085a95109bffb325fe35cb6202ded.ssl.cf2.rackcdn.com/icon-office-365-1c766d438eb37bdaa013d0107a0bfb0e0ed9e9cdab3a346cbc87d407f86b765e.svg");
+            background-image: url("/img/office-365.png");
+            background-image: none, url("/img/office-365.svg");
           }
           .email-archiving {
-            background-image: url("https://80f9b8fec919ac5ebc1a-384085a95109bffb325fe35cb6202ded.ssl.cf2.rackcdn.com/icon-email-archiving-4d3bfaad0832ee338bb6cd4b870d2464b1da834b74577ce656b047bb7ec5987d.png");
-            background-image: none, url("https://80f9b8fec919ac5ebc1a-384085a95109bffb325fe35cb6202ded.ssl.cf2.rackcdn.com/icon-email-archiving-9a2551dc5da24ec544aa0fb913042857fde2b33a2d69261262fa5b1b033ae2fa.svg");
-          }
-          .email-archiving {
-            background-image: url("https://80f9b8fec919ac5ebc1a-384085a95109bffb325fe35cb6202ded.ssl.cf2.rackcdn.com/icon-email-archiving-4d3bfaad0832ee338bb6cd4b870d2464b1da834b74577ce656b047bb7ec5987d.png");
-            background-image: none, url("https://80f9b8fec919ac5ebc1a-384085a95109bffb325fe35cb6202ded.ssl.cf2.rackcdn.com/icon-email-archiving-9a2551dc5da24ec544aa0fb913042857fde2b33a2d69261262fa5b1b033ae2fa.svg");
+            background-image: url("h/img/email-archiving.png");
+            background-image: none, url("/img/email-archiving.svg");
           }
           .exchange {
-            background-image: url("https://80f9b8fec919ac5ebc1a-384085a95109bffb325fe35cb6202ded.ssl.cf2.rackcdn.com/icon-exchange-5db90cf420b784b2d2fdcbc0acba6c458ad69b3d33e5d08cb5d23a978832c57c.png");
-            background-image: none, url("https://80f9b8fec919ac5ebc1a-384085a95109bffb325fe35cb6202ded.ssl.cf2.rackcdn.com/icon-exchange-285fd152bf75cc8bf4663f0e2176867cd433065e21618fbf5c1bcc86d02a5bda.svg");
+            background-image: url("/img/exchange.png");
+            background-image: none, url("/img/exchange.svg");
           }
           .skype {
-            background-image: url("https://80f9b8fec919ac5ebc1a-384085a95109bffb325fe35cb6202ded.ssl.cf2.rackcdn.com/icon-skype-d69103aeaf09fa248c0a9933769e18bc5be49425600a4b986cfa81948ffbe3b0.png");
-            background-image: none, url("https://80f9b8fec919ac5ebc1a-384085a95109bffb325fe35cb6202ded.ssl.cf2.rackcdn.com/icon-skype-aa78760c3185c9b99bb386ded9ea479c1597d6ee9f7139bae3e2a9b18910e308.svg");
+            background-image: url("/img/skype.png");
+            background-image: none, url("/img/skype.svg");
           }
           .email {
-            background-image: url("https://80f9b8fec919ac5ebc1a-384085a95109bffb325fe35cb6202ded.ssl.cf2.rackcdn.com/icon-email-002b757fc5d26b7742bdf80939bd50b927e69f1a6454f7192d3a78c1fdbddf28.png");
-            background-image: none, url("https://80f9b8fec919ac5ebc1a-384085a95109bffb325fe35cb6202ded.ssl.cf2.rackcdn.com/icon-email-9be1d2a26215211d0939a80e9945a80bd050cf9ec8ac5f69445f8de4a364d8bf.svg");
+            background-image: url("/img/email.png");
+            background-image: none, url("/img/email.svg");
           }
     }
 
