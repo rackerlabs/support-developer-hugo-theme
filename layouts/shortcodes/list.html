@@ -1,0 +1,5 @@
+<div>                                                                                                                                                                           
+    {{ $src := .Get "src" }}                                                                                                                                                                                                                                                                                                                                                                                                                                          
+    {{ $files := readDir $src }}                                                                                                                                                
+    {{ range $files }}<div>{{ .Name }}></div>{{ end }}                                                                                               
+</div>  

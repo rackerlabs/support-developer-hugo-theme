@@ -1,0 +1,94 @@
+.side-how-to {
+    .home-link {
+        display: block;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+        i {
+            margin-right: 5px;
+        }
+    }
+
+    a {
+        font-weight: 400;
+        text-decoration: none;
+        color: #777;
+    }
+
+    h3 {
+        text-transform: uppercase;
+        font-weight: 700;
+        margin-bottom: 15px;
+    }
+
+    ul {
+        margin-bottom: 40px;
+
+        li {
+            margin-bottom: 13px;
+        }
+    }
+
+    .area {
+        list-style: none;
+        li {
+            list-style: none;
+        }
+        .active {
+            display: block;
+            padding: 7px 10px;
+            background: #3498DB;
+            pointer-events: none;
+
+            a {
+                color: #fff;
+            }
+        }
+    }
+
+    hr {
+        margin-bottom: 40px;
+        border-width: 0;
+        border-top: 1px solid #E1E1E1;
+    }
+    button {
+        color: #757575;
+        margin-bottom: 40px;
+        a {
+            color: #3498DB;
+            text-decoration: none;
+            i {
+                margin-right: 10px;
+            }
+        }
+    }
+    .button-wp {
+        a {
+            display: block;
+            padding: 12px 35px;
+            white-space: nowrap;
+            font-weight: 600;
+        }
+    }
+    .button-cart {
+        a {
+            display: block;
+            padding: 12px 35px;
+            white-space: nowrap;
+            font-weight: 600;
+            text-align: center;
+            background-color: #5aaa28;
+            color: #fff;
+        }
+    }
+}
+
+.learn-more-button {
+    a{
+        background: #5AAA28;
+        display: inline-block;
+        padding: 20px 25px;
+        font-size: 16px;
+        color: #fff;
+        font-weight: 400;
+    }
+}
