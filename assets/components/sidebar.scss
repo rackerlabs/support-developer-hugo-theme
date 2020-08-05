@@ -62,14 +62,20 @@
         }
     }
     .button-wp {
+        border: 1px solid #3498DB;
         a {
             display: block;
             padding: 12px 35px;
             white-space: nowrap;
             font-weight: 600;
+            &:hover {
+                background-color: #3498DB;
+                color: #FFF;
+            }
         }
     }
     .button-cart {
+        border: 1px solid #5aaa28;
         a {
             display: block;
             padding: 12px 35px;

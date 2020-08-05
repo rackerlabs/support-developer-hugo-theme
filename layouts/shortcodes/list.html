@@ -1,5 +1,5 @@
-<div>                                                                                                                                                                           
-    {{ $src := .Get "src" }}                                                                                                                                                                                                                                                                                                                                                                                                                                          
-    {{ $files := readDir $src }}                                                                                                                                                
-    {{ range $files }}<div>{{ .Name }}></div>{{ end }}                                                                                               
-</div>  
+    <ul>
+    {{ range (where .Site.AllPages "Params.product_url"  "account-management") }}
+           <p>{{ .Title }}</p>
+    {{ end }}
+    </ul>
