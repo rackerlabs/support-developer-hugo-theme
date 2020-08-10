@@ -1,5 +1,8 @@
+    {{ $product_url := .Get "product_url" }}
     <ul>
-    {{ range (where .Site.AllPages "Params.product_url"  "account-management") }}
-           <p>{{ .Title }}</p>
+    {{ range (where .Site.AllPages "Params.product_url"  $product_url) }}
+           <h4>
+               <a href="{{ .Permalink | relURL }}">{{ .Title }}</a>
+            </h4>
     {{ end }}
     </ul>
