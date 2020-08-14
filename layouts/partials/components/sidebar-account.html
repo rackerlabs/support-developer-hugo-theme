@@ -1,18 +1,36 @@
 <div class="side-how-to sticky">
-    <a class="home-link" href="/how-to/"><i class="fa fa-home"></i>How–To Home</a>
+    <div class="row">
+        <div class="col-sm-12">
+            <a class="home-link" href="/how-to/"><i class="fa fa-home"></i>How–To Home</a>
+        </div>
+    </div>
     <hr />
-    <h3>{{- .Params.Title -}}</h3>
-    <ul class="area">
-        <li id="acc-man" class="link"><a href="/how-to/{{ .Params.Product_url }}" onclick="clickForActive(event);">Introduction</a></li>
-        <li id="acc-faq" class="link"><a href="/how-to/{{ .Params.Product_url }}-faq" onclick="clickForActive(event);">FAQ</a></li>
-        <li id="acc-all" class="link"><a href="/how-to/{{ .Params.Product_url }}-all-articles" onclick="clickForActive(event);">All Articles</a></li>
-    </ul>
+    <div class="row">
+        <div class="col-sm-12">
+            <h3>{{- .Params.Product_url -}}</h3>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <ul class="area">
+                <li id="acc-man" class="link"><a href="/how-to/{{ .Params.Product_url }}" onclick="clickForActive(event);">Introduction</a></li>
+                <li id="acc-faq" class="link"><a href="/how-to/{{ .Params.Product_url }}-faq" onclick="clickForActive(event);">FAQ</a></li>
+                <li id="acc-all" class="link"><a href="/how-to/{{ .Params.Product_url }}-all-articles" onclick="clickForActive(event);">All Articles</a></li>
+            </ul>
+        </div>
+    </div>
     <hr />
-    <button class="button-wp">
-        <a href="https://github.com/rackerlabs/support-how-to/edit/master/content/getting-started-with-public-cloud.md"><i
-                class="fa fa-github"></i>Edit this article</a>
-    </button>
-    <button class="button-cart">
-        <a class="active" id="side-cloud" href="https://cart.rackspace.com/cloud">Buy Now</a>
-    </button>
+    <div class="row">
+        <div class="col-sm-12">
+            <button class="button-wp">
+                <a href="https://github.com/rackerlabs/support-how-to/edit/master/content/getting-started-with-public-cloud.md"><i
+                        class="fa fa-github"></i>Edit this article</a>
+            </button>
+        </div>
+        <div class="col-sm-12">
+            <button class="button-cart">
+                <a class="active" id="side-cloud" href="https://cart.rackspace.com/cloud">Buy Now</a>
+            </button>
+        </div>
+    </div>
 </div>

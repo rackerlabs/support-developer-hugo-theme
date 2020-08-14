@@ -32,7 +32,7 @@ $header-height: 5rem;
 
   .logo {
     backface-visibility: hidden;
-    background-image: url("/img/Rackspace_Technology_Logo_RGB_WHT.svg");
+    background-image: url(img/Rackspace_Technology_Logo_RGB_WHT.svg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 90% 90%;
@@ -108,7 +108,7 @@ $header-height: 5rem;
       width: 1.5rem;
 
       .logo {
-        background-image: url("/img/Rackspace_Technology_Logo_RGB_WHT.svg");
+        background-image: url(img/Rackspace_Technology_Logo_RGB_WHT.svg);
       }
     }
   }
@@ -369,10 +369,10 @@ $header-height: 5rem;
       font-family: "open-sans-bold", Arial, sans-serif;
       font-style: normal;
 
-      &:hover,
-      &.active {
-        background-color: $color-black;
-      }
+      // &:hover,
+      // &.active {
+      //   background-color: $color-black;
+      // }
 
       &.active {
         background: fadeout(shade(white, 3%), 5%);
@@ -563,6 +563,7 @@ $header-height: 5rem;
 }
 
 .search-head {
+  background-color: #212121 !important;
   .support-h1 {
     font-size: 2.5rem;
     font-weight: 300;
@@ -573,4 +574,11 @@ $header-height: 5rem;
 
 .gsc-control-cse {
   padding: 0 !important;
+}
+
+.bg-light {
+  background-color: $color-white !important;
+}
+li, button, a {
+  cursor: pointer;
 }
