@@ -3,7 +3,11 @@
     <div class="row">
       {{- range .Site.Menus.footer -}}
       <div class="col">
-        <span class="footer-title">{{ .Name }}</span>
+        {{- if or (eq .Name "NA") -}}
+          <span></span>
+        {{- else -}}
+          <span class="footer-title">{{ .Name }}</span>
+        {{- end -}}
         {{- if .HasChildren -}}
         <ul>
           {{- range .Children -}}
