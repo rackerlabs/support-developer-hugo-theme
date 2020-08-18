@@ -27,10 +27,10 @@
     // h4.active + p, h4.active + p + p,  h4.active + p + p + p, h4.active + p + ul, h4.active + p + p + p + p, h4.active + p + p + p + p + ul, h4.active + p + p + p + p + ul + p, h4.active + ul,  h4.active + hr, h4.active + h3, h4.active + ul + hr, h4.active + ul + hr + h3, h4.active + p + p + ul, h4.active + p + hr, h4.active + p + hr + h3, h4.active + p + h3 {
     //     display: block;
     // }
-    h4.inactive~p, h4.inactive~ul, h4.inactive~h3 {
+    h4.inactive~p, h4.inactive~ul, h4.inactive~h3, h4.inactive~ol {
         display: none;
     }
-    h4.active~p, h4.active~ul, h4.active~h3 {
+    h4.active~p, h4.active~ul, h4.active~h3, h4.active~ol {
         display: block;
     }
     #share-bar {
