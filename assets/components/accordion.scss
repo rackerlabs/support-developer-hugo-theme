@@ -2,21 +2,27 @@
     h4.inactive:after {
         content: "+";
         position: absolute;
-        left: 1rem;
+        left: 2rem;
         color: #3498DB;
     }
     h4.active:after {
         content: "-";
         position: absolute;
-        left: 1rem;
+        left: 2rem;
         color: #3498DB;
     }
     h4 {
         cursor: pointer;
         padding-left: 1rem;
+        margin-left: 1rem;
+        font-size: 1.2rem;
     }
     p, ul, h3 {
         padding-left: 1rem;
+        font-size: 1.2rem;
+    }
+    code {
+        color: #474747 !important;
     }
     h4:hover {
         color: #3498DB;

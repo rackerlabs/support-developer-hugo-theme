@@ -11,14 +11,17 @@
 /* Inline code */
 code {
   border-radius: 2px;
-  color: #e0e0d7;
+  color: #e0e0d7 !important;
   padding: 0 .2em;
   font-family: 'source-code-regular', 'Monaco', 'Courier New', monospace;
   font-style: normal;
   font-weight: 400;
 }
 
+
 #share-bar {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
   h4 {
     margin-bottom: 10px;
     font-weight: 500;
@@ -50,4 +53,8 @@ code {
 
 .fa {
   font-size: 1.5rem;
+}
+
+.cta-bar {
+  text-align: center;
 }

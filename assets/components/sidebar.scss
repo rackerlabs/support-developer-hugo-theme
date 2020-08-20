@@ -65,7 +65,7 @@
         border: 1px solid #3498DB;
         a {
             display: block;
-            padding: 12px 35px;
+            padding: 10px 10px;
             font-weight: 600;
             background-color: $color-white;
             &:hover {
@@ -91,6 +91,7 @@
 .learn-more-button {
     display: block;
     border: transparent;
+    margin: 10px auto;
     a{
         background: #5AAA28;
         display: inline-block;

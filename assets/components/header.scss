@@ -189,6 +189,9 @@ $header-height: 5rem;
     .logo {
       background-image: url("/img/Rackspace_Technology_Logo_RGB_WHT.svg");
     }
+    .search-head {
+      display: none;
+    }
   }
 }
 
@@ -293,7 +296,7 @@ $header-height: 5rem;
 }
 
 .nav {
-  display: inline-block;
+  display: flex;
   position: relative;
   transition: all 0.15s linear;
   white-space: nowrap;
@@ -448,10 +451,6 @@ $header-height: 5rem;
   li {
     display: flex;
 
-    a {
-      margin: 0 0 0 1rem;
-    }
-
     cursor: pointer;
 
     ul {
@@ -572,6 +571,7 @@ $header-height: 5rem;
   }
 }
 
+
 .gsc-control-cse {
   padding: 0 !important;
 }
@@ -581,4 +581,16 @@ $header-height: 5rem;
 }
 li, button, a {
   cursor: pointer;
+}
+
+@media screen and (max-width: 700px) {
+  .search-head {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 700px) {
+ .nav li {
+    margin-right: 0;
+  }
 }
