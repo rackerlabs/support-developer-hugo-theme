@@ -72,10 +72,12 @@ th {
 
 tr:nth-child(even) td {
   background: $color-white;
+  color: $color-copy-dark;
 }
 
 tr:nth-child(odd) td {
   background: $color-white;
+  color: $color-copy-dark;
 }
 
 /* Content styling */
