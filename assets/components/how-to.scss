@@ -361,6 +361,10 @@
     color: #3498DB;
     text-decoration: none;
     font-weight: 600;
+    font-size: 1.3rem;
+    &:hover {
+      text-decoration: underline;
+    }
   }
   h4{
     a {
@@ -378,7 +382,7 @@
   padding-top: 20px;
   border-top: 1px solid #3498DB;
   p {
-      font-size: 0.9rem;
+      font-size: 0.7rem;
   }
 }
 
