@@ -1,8 +1,15 @@
     {{ $product_url := .Get "product_url" }}
-    <ul>
+    <div>
     {{ range (where .Site.AllPages "Params.product_url"  $product_url) }}
+    <div>
+    {{ if in .Params.Permalink "all-articles" }}
+        <span></span>
+    {{ else}}
            <h4>
-               <a href="{{ .Permalink | relURL }}">{{ .Title }}</a>
+               <a href="/support/{{ .RelPermalink }}">{{ .Title }}</a>
             </h4>
     {{ end }}
-    </ul>
+    </div>
+    {{ partial "components/pagination.html" }}
+    {{ end }}
+    </div>
