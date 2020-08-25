@@ -7,7 +7,7 @@
     }
 
     a {
-        font-weight: 400;
+        font-weight: 510;
         text-decoration: none;
         color: #777;
     }
@@ -66,7 +66,7 @@
         a {
             display: block;
             padding: 10px 10px;
-            font-weight: 600;
+            font-weight: 610;
             background-color: $color-white;
             &:hover {
                 background-color: #3498DB;
@@ -80,7 +80,7 @@
         a {
             display: block;
             padding: 12px 35px;
-            font-weight: 600;
+            font-weight: 610;
             text-align: center;
             background-color: #5aaa28;
             color: #fff;
@@ -98,6 +98,6 @@
         padding: 10px 25px;
         font-size: 16px;
         color: #fff;
-        font-weight: 400;
+        font-weight: 510;
     }
 }

@@ -16,7 +16,7 @@ $header-height: 5rem;
 
     .nav-link {
       color: $color-white;
-      font-weight: 500;
+      font-weight: 510;
       text-decoration: none;
       transition: color 0.15s ease;
 
@@ -247,12 +247,12 @@ $header-height: 5rem;
 
           a {
             color: $color-copy-dark;
-            font-weight: 400;
+            font-weight: 510;
             text-decoration: none;
 
             &.active {
               color: $color-brand;
-              font-weight: 600;
+              font-weight: 610;
             }
           }
         }
@@ -353,7 +353,7 @@ $header-height: 5rem;
 
     .nav-item {
       color: $color-white;
-      font-weight: 500;
+      font-weight: 510;
       text-decoration: none;
       transition: color 0.15s ease;
 
@@ -368,7 +368,7 @@ $header-height: 5rem;
 
     a {
       font-size: 14px;
-      font-weight: 400;
+      font-weight: 510;
       font-family: "open-sans-bold", Arial, sans-serif;
       font-style: normal;
 
@@ -527,7 +527,7 @@ $header-height: 5rem;
         border-radius: 4px;
 
         a {
-          font-weight: 600;
+          font-weight: 610;
           color: $color-dark-grey;
           font-size: 14px;
           line-height: 25px;

@@ -82,7 +82,11 @@ img {
 
 
 .h4, .h5, .h6, h4, h5, h6 {
-  font-family: 'titillium-bold',arial,sans-serif;
+font-family: 'titillium-bold',arial,sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 610;
+}
+
+a:hover {
+  text-decoration: underline;
 }

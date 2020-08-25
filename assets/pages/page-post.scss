@@ -58,7 +58,7 @@
   .post--meta-label {
     display: block;
     font-size: 0.6rem;
-    font-weight: 500;
+    font-weight: 510;
     letter-spacing: 0.1em;
     margin-bottom: 1rem;
     text-transform: uppercase;
@@ -73,7 +73,7 @@
 
   .post--date {
     font-size: 1rem;
-    font-weight: 600;
+    font-weight: 610;
     line-height: normal;
   }
 
@@ -81,7 +81,7 @@
     letter-spacing: 0.02em;
 
     a {
-      font-weight: 600;
+      font-weight: 610;
     }
   }
 
@@ -95,7 +95,7 @@
   h1,
   h2,
   h3 {
-    font-weight: 400;
+    font-weight: 610;
     font-style: normal;
   }
 
@@ -110,7 +110,7 @@
   }
 
   strong {
-    font-weight: 600;
+    font-weight: 610;
   }
 
   p {
@@ -121,7 +121,7 @@
 
   a {
     cursor: pointer;
-    font-weight: 500;
+    font-weight: 510;
     text-decoration: none;
   }
 
@@ -130,7 +130,7 @@
   }
 
   span {
-    font-weight: 600;
+    font-weight: 610;
   }
 
   #single-post {
@@ -148,15 +148,15 @@
 
     h3 {
       font-style: normal;
-      font-weight: 400;
+      font-weight: 610;
       font-size: 1.5rem;
       font-family: 'titillium-bold', arial, sans-serif;
     }
 
     h4 {
       font-style: normal;
-      font-weight: 400;
-      font-size: 1.5rem;
+      font-weight: 600;
+      font-size: 1.3rem;
       text-transform: uppercase;
       font-family: 'titillium-bold', arial, sans-serif;
     }
@@ -273,7 +273,7 @@
 
 .author--name {
   font-size: 1rem;
-  font-weight: 600;
+  font-weight: 610;
   line-height: normal;
 }
 
@@ -282,7 +282,7 @@
   letter-spacing: 0.02em;
 
   a {
-    font-weight: 600;
+    font-weight: 610;
   }
 }
 
@@ -298,7 +298,7 @@
     margin-top: 0;
     font-family: 'titillium-regular', arial, sans-serif;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 610;
     font-size: 2rem;
   }
 
@@ -314,7 +314,7 @@
     .read-more {
       font-family: "open-sans-bold", arial, sans-serif;
       font-style: normal;
-      font-weight: 400;
+      font-weight: 610;
       font-size: 100%;
       text-transform: uppercase;
     }
@@ -366,7 +366,7 @@
   border-radius: 3px;
   font-family: 'source-code-regular', 'Monaco', 'Courier New', monospace;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 610;
 
   pre {
     background-color: transparent !important;

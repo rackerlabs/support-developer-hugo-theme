@@ -1,12 +1,22 @@
-.faq-list {
-    h4.inactive:after {
-        content: "+";
+.panel-group {
+    .panel {
+        .panel-heading {
+            .panel-title {
+               padding-left: 1rem;
+            }
+        }
+        .panel-body {
+            padding-left: 1rem;
+        }
+    }
+    .collapsed:after {
+        content: url(/img/plus.svg);;
         position: absolute;
         left: 2rem;
         color: #3498DB;
     }
     h4.active:after {
-        content: "-";
+        content: url(/img/minus.svg);
         position: absolute;
         left: 2rem;
         color: #3498DB;
@@ -15,11 +25,11 @@
         cursor: pointer;
         padding-left: 1rem;
         margin-left: 1rem;
-        font-size: 1.2rem;
+        font-size: 1.4rem;
     }
-    p, ul, h3 {
+    p, ul {
         padding-left: 1rem;
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
     code {
         color: #474747 !important;
@@ -48,5 +58,26 @@
             content: "";
             position: absolute;
         }
+    }
+}
+
+.faq-list {
+    a.inactive:after {
+        content: url(/img/plus.svg);
+        position: absolute;
+        left: 1rem;
+        color: #3498DB;
+    }
+    a.inactive.collapsed:after {
+        content: url(/img/plus.svg);;
+        position: absolute;
+        left: 1rem;
+        color: #3498DB;
+    }
+    a[aria-expanded="true"]:after {
+        content: url(/img/minus.svg);
+        position: absolute;
+        left: 1rem;
+        color: #3498DB;
     }
 }
