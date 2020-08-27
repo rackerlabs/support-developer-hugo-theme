@@ -383,6 +383,9 @@
   border-top: 1px solid #3498DB;
   p {
       font-size: 0.7rem;
+      a {
+        font-size: inherit;
+      }
   }
 }
 
@@ -396,7 +399,7 @@
   box-sizing: border-box;
   li {
     margin: 20px 0;
-    margin-left: 1rem;
+    margin-left: 1.5rem;
   }
 }
 
@@ -408,6 +411,7 @@
   a {
       color: $color-text;
       text-decoration: underline;
+      font-size: inherit;
   }
 }
 .callout-important {
@@ -419,6 +423,7 @@
       // color: #247AAA;
       color: $color-text;
       text-decoration: underline;
+      font-size: inherit;
   }
 }
 .callout-tip {
@@ -429,6 +434,7 @@
   a {
       color: $color-text;
       text-decoration: underline;
+      font-size: inherit;
   }
 }
 .callout-warning {
@@ -439,5 +445,6 @@
   a {
       color: $color-text;
       text-decoration: underline;
+      font-size: inherit;
   }
 }
