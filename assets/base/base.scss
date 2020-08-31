@@ -1,3 +1,7 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700);
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:400,600,700);
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css);
 * {
   box-sizing: border-box;
   margin: 0;
@@ -17,7 +21,7 @@ body {
   text-rendering: optimizeLegibility;
   word-wrap: break-word;
   word-break: break-word;
-  font-family: 'open-sans-regular' ,arial,sans-serif;
+  font-family: "Titillium Web", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.5;
   font-style: normal;
@@ -81,8 +85,8 @@ img {
 }
 
 
-.h4, .h5, .h6, h4, h5, h6 {
-font-family: 'titillium-bold',arial,sans-serif;
+h2, h3, h4, h5, h6 {
+font-family: "Titillium Web", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: 610;
 }
@@ -92,5 +96,15 @@ a:hover {
 }
 
 td, th {
-  white-space: nowrap;
+  white-space: inherit;
+  word-break: keep-all;
+}
+
+th {
+  background: #3498DB;
+  color: #fff;
+  border-right: 1px solid #fff !important;
+}
+td {
+  border: 1px solid #ddd !important;
 }
