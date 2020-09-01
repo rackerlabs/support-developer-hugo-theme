@@ -10,7 +10,7 @@
             <h3>{{- .Params.Product_url -}}</h3>
         </div>
     </div>
-    {{- if or (eq .Params.Product "undefined") -}}
+    {{- if or (eq .Params.Product "undefined") or (eq .Params.Product "general") -}}
         <div></div>
     {{- else -}}
     <div class="row">
