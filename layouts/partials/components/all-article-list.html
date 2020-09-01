@@ -1,4 +1,5 @@
 {{- $product_url := .Get "product_url" -}}
+{{ $urls := .Page.Resources.GetMatch (.Get "product_url") }}
 <div>
 {{- range (where .Site.AllPages "Params.product_url"  $product_url) -}}
 <div>
@@ -6,7 +7,7 @@
     <span></span>
 {{- else -}}
        <h4>
-           <a href="{{ .Permalink }}">{{ .Title }}</a>
+           <a href='{{ $urls.RelPermalink }}'>{{ .Title }}</a>
         </h4>
 {{- end -}}
 </div>
