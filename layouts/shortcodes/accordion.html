@@ -5,11 +5,15 @@
           <a data-toggle="collapse" data-parent="#accordion" href="#{{.Get "href" }}">{{ .Get "title" }}</a>
         </h4>
       </div>
-      {{- if .Get "col"}}
+      {{- if and (.Get "col") (.Get "hasImage") }}
       <div id="{{.Get "href" }}" class="panel-collapse collapse {{.Get "col" }} ">
-        <div class="panel-body"><p>{{ .Inner | markdownify }}</p></div>
+        <div class="panel-body"><p>{{ .Inner }}</p></div>
       </div>
-      {{- else}}
+      {{- else if (.Get "col") -}}
+      <div id="{{.Get "href" }}" class="panel-collapse collapse {{.Get "col" }} ">
+        <div class="panel-body"><p>{{ .Inner | markdownify}}</p></div>
+      </div>
+      {{- else -}}
       <div id="{{.Get "href" }}" class="panel-collapse collapse">
         <div class="panel-body"><p>{{ .Inner | markdownify }}</p></div>
       </div>
