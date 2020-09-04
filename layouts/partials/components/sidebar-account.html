@@ -10,7 +10,7 @@
             <h3>{{- .Params.Product -}}</h3>
         </div>
     </div>
-    {{- if or (eq .Params.Product "undefined") (eq .Params.Product "General") -}}
+    {{- if or (eq .Params.Product "undefined") (eq .Params.Product "General") (eq .Params.Product "Getting Started with Hosted Email") (eq .Params.Product "Getting Started with Public Cloud") -}}
         <div></div>
     {{- else -}}
     <div class="row">
