@@ -14,10 +14,9 @@
             System Status
           </a>
         </div>
-        <div class="nav-item buttons-nav-item buy-now col-sm-12 col-lg-4 col-md-4" data-signed-out="true">
-          <a class="buynow-button button small primary"
-            href="{{ .URL | absURL }}">{{ .Pre }}{{ .Name }}{{ .Post }}</a>
-            <ul>
+        <div class="nav-item buttons-nav-item buy-now col-sm-12 col-lg-4 col-md-4" data-signed-out="true" id ="buy-now-button">
+          <a class="buynow-button button small primary">{{ .Pre }}{{ .Name }}{{ .Post }}</a>
+            <ul id="buy-now-list">
               <li><a href="https://cart.rackspace.com/cloud">Rackspace Cloud</a></li>
               <li><a href="https://cart.rackspace.com/apps">Email &amp; Apps</a></li>
               <li><a href="https://cart.rackspace.com/aws">Fanatical Support for AWS</a></li>
@@ -26,10 +25,9 @@
             </ul>
           </div>
         {{- else if eq .Identifier "login" -}}
-        <div class="nav-item buttons-nav-item login col-sm-12 col-lg-4 col-md-4" data-signed-out="true">
-          <a class="login-button button small secondary"
-            href="{{ .URL | absURL }}">{{ .Pre }}{{ .Name }}{{ .Post }}</a>
-            <ul>
+        <div class="nav-item buttons-nav-item login col-sm-12 col-lg-4 col-md-4" data-signed-out="true" id="login-button">
+          <a class="login-button button small secondary">{{ .Pre }}{{ .Name }}{{ .Post }}</a>
+            <ul id="login-list">
               <li><a href="https://my.rackspace.com/portal/auth/login">MyRackspace Portal</a></li>
               <li><a href="https://mycloud.rackspace.com">Cloud Control Panel</a></li>
               <li><a href="https://apps.rackspace.com">Rackspace Webmail Login</a></li>

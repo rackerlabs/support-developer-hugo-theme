@@ -450,7 +450,6 @@ $header-height: 5rem;
 
   .buttons-nav-item {
     display: flex;
-
     cursor: pointer;
 
     ul {
@@ -467,11 +466,11 @@ $header-height: 5rem;
       }
     }
 
-    &:hover {
-      ul {
-        display: block;
-      }
-    }
+    // &:hover {
+    //   ul {
+    //     display: block;
+    //   }
+    // }
   }
 
   .buttons-nav-item {
