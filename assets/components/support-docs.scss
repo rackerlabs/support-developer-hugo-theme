@@ -114,41 +114,41 @@
 
 
 p.banner-maintenance {
-    background: #EB0000;
-    position: relative;
-    width: 100%;
-    margin: 0 auto;
-    padding: 15px 0;
-    text-align: center;
-    font-family: $font-family-primary;
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 17px;
-    color: #FFFFFF;
+    background: #EB0000 !important;
+    position: relative !important;
+    width: 100% !important;
+    margin: 0 auto !important;
+    padding: 15px 0 !important;
+    text-align: center !important;
+    font-family: $font-family-primary !important;
+    font-size: 18px !important;
+    font-weight: 500 !important;
+    line-height: 17px !important;
+    color: #FFFFFF !important;
 
     @media only screen and (max-width: 375px) {
-        width: 100%;
+        width: 100% !important;
     }
 
     @media only screen and (min-width: 376px) and (max-width: 600px) {
-        width: 100%;
+        width: 100% !important;
     }
 
     @media only screen and (max-width: 600px) {
-        font-size: 14px;
+        font-size: 14px !important;
     }
 
     strong {
-        font-weight: 700;
+        font-weight: 700 !important;
     }
 
 
     a {
-        color: #ffffff;
-        text-decoration: underline;
+        color: #ffffff !important;
+        text-decoration: underline !important;
 
         &:hover {
-            color: #222;
+            color: #222 !important;
         }
     }
 }
