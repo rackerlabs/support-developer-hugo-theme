@@ -65,10 +65,12 @@
         font-size: 1.2em;
         color: #1E82D7;
         text-decoration: none;
+
         .caret {
             color: #1E82D7;
             padding-left: 6px;
         }
+
         &:hover,
         &:focus {
             background: #1E82D7;
@@ -92,6 +94,7 @@
             color: #1E82D7;
             padding-left: 6px;
         }
+
         &:hover,
         &:focus {
             background: #1E82D7;
@@ -106,5 +109,46 @@
         position: relative;
         width: 90%;
         font-family: serif;
+    }
+}
+
+
+p.banner-maintenance {
+    background: #EB0000;
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    padding: 15px 0;
+    text-align: center;
+    font-family: $font-family-primary;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 17px;
+    color: #FFFFFF;
+
+    @media only screen and (max-width: 375px) {
+        width: 100%;
+    }
+
+    @media only screen and (min-width: 376px) and (max-width: 600px) {
+        width: 100%;
+    }
+
+    @media only screen and (max-width: 600px) {
+        font-size: 14px;
+    }
+
+    strong {
+        font-weight: 700;
+    }
+
+
+    a {
+        color: #ffffff;
+        text-decoration: underline;
+
+        &:hover {
+            color: #222;
+        }
     }
 }
