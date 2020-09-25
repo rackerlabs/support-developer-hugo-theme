@@ -106,5 +106,8 @@
         position: relative;
         width: 90%;
         font-family: serif;
+        @media (max-width: 1024px) {
+            padding: 10px 5px;
+        }
     }
 }

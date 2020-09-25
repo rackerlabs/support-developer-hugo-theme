@@ -244,6 +244,7 @@ a.search-title:visited {
 .ais-Highlight-highlighted,
 .ais-Snippet-highlighted {
   background-color: rgb(254, 242, 242) !important;
+  color: inherit;
 }
 
 #stats {
@@ -252,4 +253,28 @@ a.search-title:visited {
   font-weight: bold;
   letter-spacing: 0px;
   padding: 2rem 2rem 0 2rem;
+}
+
+.results-p {
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0px;
+}
+
+.no-results-p1 {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 0px;
+}
+
+.no-results-p2 {
+  color: rgb(42, 42, 42);
+  font-size: 16px;
+  font-weight: normal;
+  text-align: center;
+  letter-spacing: 0px;
+  line-height: 24px;
 }
