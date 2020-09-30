@@ -39,6 +39,7 @@
 
 .modal-header {
   padding: 0;
+  border-bottom: 1px solid $color-white;
 }
 
 #hits {
@@ -277,4 +278,12 @@ a.search-title:visited {
   text-align: center;
   letter-spacing: 0px;
   line-height: 24px;
+}
+
+.modal-body {
+  padding: 0;
+}
+
+.ais-SearchBox {
+  color: $color-black;
 }
