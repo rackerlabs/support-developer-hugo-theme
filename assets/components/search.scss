@@ -18,7 +18,14 @@
 }
 
 .btn-white {
-  background-color: #FFFFFF;
+  color: $color-white;
+}
+.btn-white:hover {
+  color: $color-white;
+}
+
+.btn-white:focus, .btn-white.focus {
+  box-shadow: 0 0 0 .2rem $color-black;
 }
 
 .search-product {
