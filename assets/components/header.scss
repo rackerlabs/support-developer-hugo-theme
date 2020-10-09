@@ -606,3 +606,23 @@ li, button, a {
      margin-bottom: 1rem;
    }
  }
+
+ @media screen and (max-width: 991px) {
+   .mobile-search {
+     display: inline-block !important;
+     background-color: $color-black !important;
+   }
+   .desktop-search {
+     display: none !important;
+   }
+ }
+
+ @media screen and (min-width: 992px) {
+  .mobile-search {
+    display: none !important;
+    background-color: $color-black !important;
+  }
+  .desktop-search {
+    display: inline-block !important;
+  }
+ }

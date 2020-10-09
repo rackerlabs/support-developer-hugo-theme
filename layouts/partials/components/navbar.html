@@ -38,6 +38,11 @@
         {{- end -}}
       </div>
     </form>
+    <span data-tooltip="Click Here for Search" data-tooltip-position="top" class="mobile-search">
+      <button type="button" class="btn btn-white" data-toggle="modal" data-placement="top" data-target="#searchModal">
+        <i class="fa fa-search" aria-hidden="true"></i>
+      </button>
+    </span>
   </nav>
 </header>
 
@@ -50,7 +55,7 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       {{- partial "components/navbar_nav.html" .Site.Menus.main . -}}
-      <span  data-tooltip="Click Here for Search" data-tooltip-position="top">
+      <span data-tooltip="Click Here for Search" data-tooltip-position="top" class="desktop-search">
         <button type="button" class="btn btn-white" data-toggle="modal" data-placement="top" data-target="#searchModal">
           <i class="fa fa-search" aria-hidden="true"></i>
         </button>
