@@ -447,6 +447,7 @@ $header-height: 5rem;
 
   .buttons-nav-item {
     display: flex;
+    margin: 1rem;
     cursor: pointer;
 
     ul {
@@ -479,8 +480,8 @@ $header-height: 5rem;
       z-index: 20;
       text-align: right;
       color: $color-white;
-      left: -3rem;
-      top: 2.15rem;
+      right: 0;
+      top: 75%;
     }
   }
 
@@ -596,4 +597,27 @@ li, button, a {
      margin-top: 1rem;
      margin-bottom: 1rem;
    }
+ }
+
+ @media screen and (max-width: 991px) {
+   .mobile-search {
+     display: inline-block !important;
+     background-color: $color-black !important;
+   }
+   .desktop-search {
+     display: none !important;
+   }
+   .buttons-nav-item {
+    flex: auto;
+  }
+ }
+
+ @media screen and (min-width: 992px) {
+  .mobile-search {
+    display: none !important;
+    background-color: $color-black !important;
+  }
+  .desktop-search {
+    display: inline-block !important;
+  }
  }
