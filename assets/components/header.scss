@@ -157,7 +157,6 @@ $header-height: 5rem;
       color: #555;
       transition: all 0.15s linear;
       background-color: $color-white;
-
       .button-text {
         display: none;
       }
@@ -190,7 +189,6 @@ $header-height: 5rem;
     .logo {
       background-image: url("/img/Rackspace_Technology_Logo_RGB_WHT.svg");
     }
-
     .search-head {
       display: none;
     }
@@ -447,56 +445,59 @@ $header-height: 5rem;
   margin: 1rem;
 }
 
-
-.buttons-nav-item {
+.buttons-nav-items {
   display: flex;
 
-  cursor: pointer;
-
-  ul {
-    display: none;
+  .buttons-nav-item {
+    display: flex;
+    margin: 1rem;
     cursor: pointer;
 
-    li {
-      margin-bottom: .5em;
+    ul {
+      display: none;
+      cursor: pointer;
 
-      a {
-        color: $color-white;
-        text-decoration: none;
+      li {
+        margin-bottom: .5em;
+
+        a {
+          color: $color-white;
+          text-decoration: none;
+        }
+      }
+    }
+
+    &:hover {
+      ul {
+        display: block;
       }
     }
   }
 
-  &:hover {
+  .buttons-nav-item {
     ul {
-      display: block;
+      position: absolute;
+      padding-left: 0;
+      border-top: 1px solid $color-black;
+      border-radius: 3px;
+      z-index: 20;
+      text-align: right;
+      color: $color-white;
+      right: 0;
+      top: 75%;
     }
   }
-}
 
-.buttons-nav-item {
-  ul {
-    position: absolute;
-    padding-left: 0;
-    border-top: 1px solid $color-black;
-    border-radius: 3px;
-    z-index: 20;
-    text-align: right;
-    color: $color-white;
-    right: 10%;
-    top: 100%;
+  .buy-now {
+    ul {
+      background: $color-green;
+    }
   }
-}
 
-.buy-now {
-  ul {
-    background: $color-green;
-  }
-}
-
-.login {
-  ul {
-    background: $color-header-grey;
+  .login {
+    ul {
+      background: $color-header-grey;
+    }
   }
 }
 
@@ -560,7 +561,6 @@ $header-height: 5rem;
   text-transform: uppercase;
   font-size: 0.8rem !important;
   background-color: $color-white !important;
-
   &:hover {
     background-color: $color-white !important;
     text-decoration: underline;
@@ -569,7 +569,6 @@ $header-height: 5rem;
 
 .search-head {
   background-color: #212121 !important;
-
   .support-h1 {
     font-size: 2.5rem;
     font-weight: 300;
@@ -586,10 +585,7 @@ $header-height: 5rem;
 .bg-light {
   background-color: $color-white !important;
 }
-
-li,
-button,
-a {
+li, button, a {
   cursor: pointer;
 }
 
@@ -600,40 +596,36 @@ a {
 }
 
 @media screen and (max-width: 700px) {
-  .nav li {
+ .nav li {
     margin-right: 0;
   }
 }
-
 @media screen and (max-width: 700px) {
   .buy-now {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-  }
-}
+     margin-top: 1rem;
+     margin-bottom: 1rem;
+   }
+ }
 
-@media screen and (max-width: 991px) {
+ @media screen and (max-width: 991px) {
+   .mobile-search {
+     display: inline-block !important;
+     background-color: $color-black !important;
+   }
+   .desktop-search {
+     display: none !important;
+   }
+   .buttons-nav-item {
+    flex: auto;
+  }
+ }
+
+ @media screen and (min-width: 992px) {
   .mobile-search {
-    display: inline-block !important;
+    display: none !important;
     background-color: $color-black !important;
   }
-
-  .desktop-search {
-    display: none !important;
-  }
-}
-
-@media screen and (min-width: 992px) {
-  .mobile-search {
-    display: none !important;
-    background-color: $color-black !important;
-  }
-
   .desktop-search {
     display: inline-block !important;
   }
-}
-
-.nav-item {
-  margin: 1rem;
-}
+ }

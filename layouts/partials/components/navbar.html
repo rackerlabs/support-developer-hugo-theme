@@ -4,7 +4,7 @@
 
 
 <header class="header buttons-header">
-  <nav class="nav navbar navbar-light bg-light justify-content-end">
+  <nav class="nav navbar navbar-light bg-light justify-content-end buttons-nav-items">
       {{- range .Site.Menus.buttons -}}
       {{- if eq .Identifier "buynow" -}}
       <div class="nav-item buttons-nav-item" data-signed-out="true">
@@ -32,7 +32,7 @@
           <li><a href="https://cp.rackspace.com">Cloud Office Control Panel</a></li>
         </ul>
       </div>
-      <div class="nav-item">
+      <div class="nav-item buttons-nav-item" data-signed-out="true">
         <span data-tooltip="Click Here for Search" data-tooltip-position="top" class="mobile-search">
           <button type="button" class="btn btn-white" data-toggle="modal" data-placement="top"
             data-target="#searchModal">
