@@ -65,10 +65,12 @@
         font-size: 1.2em;
         color: #1E82D7;
         text-decoration: none;
+
         .caret {
             color: #1E82D7;
             padding-left: 6px;
         }
+
         &:hover,
         &:focus {
             background: #1E82D7;
@@ -92,6 +94,7 @@
             color: #1E82D7;
             padding-left: 6px;
         }
+
         &:hover,
         &:focus {
             background: #1E82D7;
@@ -108,6 +111,47 @@
         font-family: serif;
         @media (max-width: 1024px) {
             padding: 10px 5px;
+        }
+    }
+}
+
+
+p.banner-maintenance {
+    background: #EB0000 !important;
+    position: relative !important;
+    width: 100% !important;
+    margin: 0 auto !important;
+    padding: 15px 0 !important;
+    text-align: center !important;
+    font-family: $font-family-primary !important;
+    font-size: 18px !important;
+    font-weight: 500 !important;
+    line-height: 17px !important;
+    color: #FFFFFF !important;
+
+    @media only screen and (max-width: 375px) {
+        width: 100% !important;
+    }
+
+    @media only screen and (min-width: 376px) and (max-width: 600px) {
+        width: 100% !important;
+    }
+
+    @media only screen and (max-width: 600px) {
+        font-size: 14px !important;
+    }
+
+    strong {
+        font-weight: 700 !important;
+    }
+
+
+    a {
+        color: #ffffff !important;
+        text-decoration: underline !important;
+
+        &:hover {
+            color: #222 !important;
         }
     }
 }
